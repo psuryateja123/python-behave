@@ -1,0 +1,6 @@
+behave
+selenium
+chromedriver
+six
+allure-behave
+browserstack-local

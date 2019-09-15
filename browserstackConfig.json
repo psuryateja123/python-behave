@@ -1,0 +1,19 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "surya39",
+  "key": "nzhAsAPFSsW8dPXgSmpM",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "name": "Bstack-[Behave] Sample Test"
+  },
+
+  "environments": [{
+    "browser": "chrome",
+    "browser_version": "68.0",
+    "os": "OS X",
+    "os_version": "High Sierra",
+    "resolution": "1920x1080"
+
+  }]
+}
