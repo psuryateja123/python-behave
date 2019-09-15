@@ -23,7 +23,7 @@ class github_search_pageObjects(elementActions):
         self.find_by_xpath(github_search_objects.search_tab).text()
 
     def fill_text_search(self):
-        self.fill_text_search_by_xpath(github_search_objects.search_tab, "psuryateja123/trayio_tests")
+        self.fill_text_search_by_xpath(github_search_objects.search_tab, "psuryateja123/python-behave")
 
     def hit_enter(self):
         v = self.find_by_xpath(github_search_objects.search_tab)
@@ -33,7 +33,7 @@ class github_search_pageObjects(elementActions):
         self.find_by_class(github_search_objects.search_results).text()
 
     def checking_for_repo(self):
-        self.assertEquals(github_search_pageObjects.find_text_in_search_results, "psuryateja123/trayio_tests")
+        self.assertEquals(github_search_pageObjects.find_text_in_search_results, "psuryateja123/python-behave")
 
     def selecting_the_repo(self):
         self.click_by_xpath(github_search_objects.search_results)
