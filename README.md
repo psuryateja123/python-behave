@@ -40,3 +40,8 @@ behave --tags=@NAME_OF_THE_TAG -f allure_behave.formatter:AllureFormatter -o RES
 ```
 allure serve RESULTS_FOLDER
 ```
+
+
+* Using BrowserStack
+
+For running on single instance. I have added browserstack config in a json file and named it as [browserstackConfig.json] (https://github.com/psuryateja123/python-behave/blob/master/browserstackConfig.json). By adding your user name and your key in the user and key. Also by uncommenting the piece of code that was commented for browserstack in [environment.py] () and commenting the piece of code that is used for running tests locally, then will be able to run the tests in Browserstack.
