@@ -1,7 +1,7 @@
 {
   "server": "hub.browserstack.com",
-  "user": "surya39",
-  "key": "nzhAsAPFSsW8dPXgSmpM",
+  "user": "YOUR_USERNAME",
+  "key": "YOUR_KEY",
 
   "capabilities": {
     "browserstack.debug": true,
