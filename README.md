@@ -1,7 +1,7 @@
 # python-behave
 
 
-#### The tests in the framework are written in BDD pattern using feature file.
+#### The tests in this framework are written in BDD (behave) pattern using feature file.
 
 #### Installation: The required dependencies can be installed by 
 * Type
