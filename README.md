@@ -35,7 +35,7 @@ behave --tags=@NAME_OF_THE_TAG -f allure_behave.formatter:AllureFormatter -o RES
 
 ```
 
-* After running the tests, to view the results
+* To view results, after running the tests
 
 ```
 allure serve RESULTS_FOLDER
