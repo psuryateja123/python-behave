@@ -9,7 +9,7 @@
 pip install -r requirements.txt
 ```
 
-* if there are any issues in installing the dependencies, they can be installed seperately using 
+* If there are any issues in installing the dependencies, they can be installed seperately using 
 ```
 pip install name_of_the_dependency
 ```
@@ -20,9 +20,9 @@ pip install name_of_the_dependency
 ```
 behave
 ```
-* Can run tests using tags, as I have added smoke tag
+* To run specific tests using tags
 ```
-behave --tags=@smoke
+behave --tags=@NAME_OF_THE_TAG
 ```
 
 This will run all the tests on a chrome browser.
